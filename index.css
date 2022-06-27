@@ -1,0 +1,197 @@
+body{background-color: white;}
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    flex-wrap: wrap;}
+.intro{
+        background-image: url(tipos.jpg);
+        margin: 20px;
+        padding-left: 50px;
+        padding-right: 100px;
+
+}
+.logo{
+        padding-top: 25px;
+
+}    
+
+.The-World{
+     
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+    float: right;
+}
+    
+.menu{
+        height: inherit;}
+.header ol{
+        display: flex;
+        height: inherit;}
+.header ol li{
+        height: inherit;}
+.header a {
+        display: flex;
+        align-items: center;
+        height: inherit;
+        padding: 0 10px;
+        color:white;
+        text-decoration: none;}
+ol, ul{ 
+        margin: 0;
+        padding: 0;
+        list-style: none;}
+.nombre{
+        margin: 20px;
+        margin-top: 10px;
+        padding-left: 10px;
+        background-color:white;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: left;
+        justify-content: space-between;}
+.desarrollo{
+        background-color: rgb(128, 201, 211);
+        margin-top: 10px;
+        padding-left: 10px;
+        align-items: right ;
+        justify-content: space-between;
+        display: flex;
+}        
+.tipos{
+        margin: 30px;
+        background-image: url(tips.jpg);
+        margin-top: 20px;
+        padding-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: left;
+        justify-content: space-between;
+}
+
+.foto-image{
+        padding: 10px;}
+.foto{
+        padding: 10px;
+        padding-left: 200px;
+        }
+h1{
+        font-size: 30px;
+        color:rgba(9, 81, 83, 0.911);
+        line-height: 1.5 em;
+        letter-spacing: -1px;
+        word-spacing: 3px;}
+.text{
+        color:black;
+        font-size: 20px;
+        font-family:'Trebuchet MS', sans-serif;
+        padding-bottom: 10px;
+        display: flex;
+        margin-right:0px ;}
+ figure{ margin:0px;}
+.experiencia{
+        
+        display:flex; 
+        flex-wrap: wrap;}
+.titulo-evento{
+        background-color: white;
+        color:rgba(9, 81, 83, 0.911);
+        text-align: center;
+}
+.evento{margin:5px;
+        width: 430px;
+        height:450px ;
+        flex-shrink: 0;              
+        overflow: hidden;
+        background-color:black;
+        line-height: 1.5 em; }
+.evento-imagen {
+        height: 250px;
+        object-fit: cover;
+        width: 100%;}
+.html-video{height: 165%;
+        object-fit: cover;
+        width:130%;}
+.flexible-video{width: 480px;
+        height: 150px;
+        padding-top: 0;
+        background: turquoise;
+        position:relative; }
+.youtube-video{
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left:0;
+        right: 0;
+        width: 100%;
+        height: 100%;}      
+.titulo-evento{
+        text-align: center;
+} 
+.evento-detalles{
+        margin: 20px;
+        height: 150px;
+        width: 390px;
+        padding-top: 0px;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;}
+.evento-url{
+        background-color: gray;
+        color: white;
+        padding: 10px 25px;
+        text-decoration: none;
+        border-radius: 10px;
+        }
+.container{
+        display: flex;
+        justify-content: space-between; }
+.contact{
+        display: flex;
+        background-image: url(tipos.jpg);
+        color: black;
+        height: 150px;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;}
+.social{
+        display: flex;
+        align-items: center;}
+.social-link{
+        
+        display: flex;
+        width: 100%;
+        height: 50px;
+        margin: 0 10px;
+        background-size: 50px 50px ;
+        border-radius: 150px;}    
+.social-link.instagram{
+        background-image: url(instagram.PNG);
+        width: 50px;
+        height: 50px;
+}                            
+.social-link.facebook{
+        background-image: url(facebook.png);
+        width: 50px;
+        height: 50px;
+}            
+.social-link.twitter{
+        background-image: url(twitter.png);
+        width: 50px;
+        height: 50px;}
+.footer{
+        background-color:white;
+        color: black;
+        display: flex;
+        display:block;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        letter-spacing: 0.5px;
+}                                    
+        
+                        
+                        
